@@ -100,4 +100,24 @@ footer {
     background: #666;
     border-top: 8px solid #4aaaa5;
 }
-  
+
+@media (max-width: 992px) {
+    .paragraph {
+        width: 450px;
+    }
+}
+
+@media (max-width: 640px) {
+    .para1 {
+        width: 175px;
+        float: right;
+    }
+    .para2 {
+        float: right;
+        width: 510px;
+    }
+    .bio-img {
+        width: 270px;
+        height: 200px;
+    }
+}
